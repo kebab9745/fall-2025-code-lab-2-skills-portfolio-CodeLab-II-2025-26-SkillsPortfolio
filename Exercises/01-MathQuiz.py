@@ -26,6 +26,7 @@ def displayMenu():
     
     tk.Label(window, text="DIFFICULTY LEVEL", font=("Arial", 16)).pack(pady=20)
     tk.Button(window, text="1. Easy", width=20, command=easyLevel).pack(pady=5)
+    
     tk.Button(window, text="2. Moderate", width=20, command=moderateLevel).pack(pady=5)
     tk.Button(window, text="3. Advanced", width=20, command=advancedLevel).pack(pady=5)
 
